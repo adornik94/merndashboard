@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@400;600;700&family=Montserrat&family=Public+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@300;400;600;700&family=Montserrat&family=Public+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@200;400;600;700&family=Montserrat&family=Public+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+html, 
+body, 
+#root, 
+.app{
+
+height: 100%; 
+width: 100%; 
+font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+.sidebar{
+
+height: 100%; 
+width: 20%;
+background-color:#cfb095;
+
+
+}
+
+.sidebarlist{
+
+height:auto;
+width: 100%;
+padding:0;
+color:black;
+}
+
+
+.sidebarlist .row{
+
+  width: 100%; 
+  height: 60px;
+  margin: 0%;
+  display:flex; 
+  flex-direction: row;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  font-family:'Cinzel', serif ;
+}
+
+
+.row #icon{
+
+flex: 30%;
+display: grid;
+
+
+place-items: center;
+}
+
+
+
+.row #title{
+
+flex: 70%;
+
+}
+
+
+.sidebarlist .row:hover{
+  cursor: pointer;
+  background-color: rgb(	238, 217, 196);
+  
+
+
+}
+
+#logo{
+
+
+  flex: 30%;
+display: grid; 
+place-items: center;
+}
+
+#chevicon{
+
+flex: 70%; 
+
+}
